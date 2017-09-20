@@ -32,4 +32,22 @@ These are notes for the tutsplus javascript fundamentals course.
 
 #### 2.2 Data Types
 
+* Loosely typed
+* Few types
+
+##### Primitives
+
+* Number
+	- Any Positive or negative integer or decimal
+	- Greater than 5e-324
+	- Less than 1.7976931348623157e+308
+* String
+* Boolean
+* Undefined
+* Null
+
+
+
+
+
 
