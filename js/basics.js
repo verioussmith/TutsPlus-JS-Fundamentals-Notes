@@ -15,6 +15,17 @@ var theMeaningOfLife = 42, // This is assigned the value of 42
 
 foo = baz; // Now overwritten with value of undefined
 
+var number = 1; // This is a number data type
+var string = 'hello'; // this is a string
+var quotes = '"Hello", said the man.'; // Nested quote string
+var escaped = '"Oh no you did\'nt" she said.'; // Escaped string
+var joined = 'wait, ' + 'what?'; // Joined variable will be a single string.
+
+
+
+
+
+
 
 
 

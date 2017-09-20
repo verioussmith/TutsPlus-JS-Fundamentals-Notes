@@ -41,7 +41,18 @@ These are notes for the tutsplus javascript fundamentals course.
 	- Any Positive or negative integer or decimal
 	- Greater than 5e-324
 	- Less than 1.7976931348623157e+308
+	- Octal
+	- Exponential
+	- Hexadecimal
+	- +Infinity
+	- -Infinity
+	- Infinity is a special number
+	- NAN - Not a number (happens if you try to perform an invalid operation on a number. ex.. dividing a number by a string.)
+	- Nothing is equal to NAN (not even NAN), Use isNAN to check
 * String
+	- A sequence of characters within quotes
+	- can be double or single quotes
+	- quotes can be nested, but must match
 * Boolean
 * Undefined
 * Null
