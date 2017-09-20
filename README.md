@@ -24,7 +24,12 @@ These are notes for the tutsplus javascript fundamentals course.
 * Variable types can change
 * Sometimes we dont know variable types
 
+* Use camelCase for naming
 * Always use var when defining a variable for the first time or else you pollute the global scope.
 
 * Globally scoped variables are available for any other variables to access & update
 * Use a linting tool to avoid globalluy scoped variables.
+
+#### 2.2 Data Types
+
+
