@@ -21,6 +21,16 @@ var quotes = '"Hello", said the man.'; // Nested quote string
 var escaped = '"Oh no you did\'nt" she said.'; // Escaped string
 var joined = 'wait, ' + 'what?'; // Joined variable will be a single string.
 
+var array = [5, 'something', true]; // Array length here is 3
+
+var object = {  // An Object with 
+	myNumber: 10,
+	myString: 'woohoo!'
+}
+
+object.myNumber; // Dot Notation: This returns 10
+object['myString']; // Bracket Notation: This returns 'woohoo!'
+
 
 
 

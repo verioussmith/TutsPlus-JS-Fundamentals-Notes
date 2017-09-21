@@ -37,7 +37,7 @@ These are notes for the tutsplus javascript fundamentals course.
 
 ##### Primitives
 
-* Number
+* Number (Primary Data Type)
 	- Any Positive or negative integer or decimal
 	- Greater than 5e-324
 	- Less than 1.7976931348623157e+308
@@ -49,14 +49,40 @@ These are notes for the tutsplus javascript fundamentals course.
 	- Infinity is a special number
 	- NAN - Not a number (happens if you try to perform an invalid operation on a number. ex.. dividing a number by a string.)
 	- Nothing is equal to NAN (not even NAN), Use isNAN to check
-* String
+* String (Primary Data Type)
 	- A sequence of characters within quotes
 	- can be double or single quotes
 	- quotes can be nested, but must match
-* Boolean
-* Undefined
-* Null
-
+* Boolean (Primary Data Type)
+	- Only two values - True or False
+	- Javascript has truthy or falsy values as well (very useful when it comes to conditionals)
+		- Falsey values
+			- false
+			- 0
+			- ''
+			- null
+			- undefined
+			- NaN
+		- All other values are truthy
+* Undefined (Special Data Type)
+	- Automatically assigned to a variable we do not assign a value to
+	- Sometimes undefined and null are equal
+	- Undefined and null are seperate data types
+	- Not a variable but can be used as the value for a variable
+* Null (Special Data Type)
+	- A data type used in the place of any regular value (ie String or Number)
+	- Once a variable has been set it cannot be unset or deleted but it can have it's value set to null
+* Array (Composite Data Type)
+	- Container for multiple values
+	- Not associative but like objects with fixed numerical indices
+	- indices are zero-based
+* Object (Composite Data Type)
+	- Containers for key value pairs of data
+	- Pairs seperated by commas
+	- Key and value seperated by a colon
+	- Accessed with dot notation or bracket notation
+	- Similar conceptually to an array except with indices based on words
+	- In other languages they are reffered to as associative arrays.
 
 
 
