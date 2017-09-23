@@ -55,7 +55,9 @@ multiplicationAssignment *= 2; // multiplicationAssignment = 4
 divisionAssignment /= 2.5; // divisionAssignment = 2
 modulusAssignment %= 2; // modulusAssignment = 1
 
-
+var precedence = 1 + 4 * 2; // precedence = 9
+var precedence2 = (1 + 4) * 2; // precedence2 = 10
+var precedence3 = 2 + 10 - 2; // precedence3 = 10
 
 
 

@@ -116,7 +116,10 @@ These are notes for the tutsplus javascript fundamentals course.
     - Used with only a single operand
   - Logical operators && || 
 
+#### 2.5 Operator Precedence
 
+  - Operators are evaluated according to their preceence, which is somewhat complex
+    - Full info on operator precedence:  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
 
 
 
