@@ -110,6 +110,13 @@ These are notes for the tutsplus javascript fundamentals course.
   - Greater-than comparison
   - Less-than comparison
 
+#### 2.4 Operators Continued
+
+  - Unary operators + - ! void typeof delete
+    - Used with only a single operand
+  - Logical operators && || 
+
+
 
 
 
