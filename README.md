@@ -3,6 +3,8 @@
 
 These are notes for the tutsplus javascript fundamentals course. 
 
+### Introduction
+
 #### 1.3 Comments, Consoles & Alerts
 
 * use for debugging
@@ -16,6 +18,8 @@ These are notes for the tutsplus javascript fundamentals course.
 * JS has been around for  more than 20 years
 * Editors needed
 * Debugging tools
+
+### 2. Javascript Basics
 
 #### 2.1 Variables
 
@@ -83,6 +87,35 @@ These are notes for the tutsplus javascript fundamentals course.
 	- Accessed with dot notation or bracket notation
 	- Similar conceptually to an array except with indices based on words
 	- In other languages they are reffered to as associative arrays.
+
+#### 2.3 Basic Operators
+
+* Plus Sign + Addition
+* Minus Sign - Subtraction
+* Star Character * Multiplication
+* Forward Slash / Division
+* Modulus % Remainder after division
+* Increment ++
+* Decrement --
+
+* Postfix mode exampleVariable++/--
+  - Postfix will return the value of the variable then increment the value after
+* Prefix mode  ++/--exampleVariable
+  - Prefix will increment the value then return the value
+* Assignment - Simple assignment uses a single equals sign = 
+
+* Comparison operators
+  - Equality comparison
+  	- Recommended to always use strict comparison
+  - Greater-than comparison
+  - Less-than comparison
+
+
+
+
+
+
+
 
 
 
