@@ -60,6 +60,30 @@ var precedence2 = (1 + 4) * 2; // precedence2 = 10
 var precedence3 = 2 + 10 - 2; // precedence3 = 10
 
 
+var object = { // This is an "Object Literal"
+	property1: true,
+	property2: 'hello'
+};
+
+var string = 'hello';
+var stringObject = new String('An object string');
+
+
+function getThingByColour(colour) {
+	var things = {
+		red: 'a red thing',
+		green: 'a green thing',
+		blue: 'a blue thing'
+	}
+
+	return things[colour] || 'Sorry, no thing of that colour exists';
+}
+
+
+
+
+
+
 
 
 

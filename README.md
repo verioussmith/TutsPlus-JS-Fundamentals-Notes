@@ -121,6 +121,22 @@ These are notes for the tutsplus javascript fundamentals course.
   - Operators are evaluated according to their preceence, which is somewhat complex
     - Full info on operator precedence:  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
 
+#### 2.6 Objects
+
+  - Consist of a list of comma seperated values witin curly braces
+  - The key / value pairs are known as properties
+    - The identifiers are called "keys"
+    - The values are known as "values"
+  - Can consist of any other data types, Objects or functions
+  - Object literal syntax is the recommended way to create objects
+  - You can also create objects using the "New" keyword
+  - Access properties with . or [] syntax
+  - Add properties with . and = 
+  - We can creat primitives using "new" but don't
+  
+
+
+
 
 
 
