@@ -93,7 +93,7 @@ var hoistedVariable = 'test'; // This Variable is hoisted & returns undefined
 
 (function InvokeImmediately() {
 	console.log('invoked automatically')
-}());
+}());  // Extra parentheses and wrapped parentheses
 
 !function alsoInvokedAutomatically() {
 	console.log('Invoked automatically too!');
