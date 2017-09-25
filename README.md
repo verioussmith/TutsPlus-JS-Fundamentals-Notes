@@ -132,8 +132,8 @@ These are notes for the tutsplus javascript fundamentals course.
   - You can also create objects using the "New" keyword
   - Access properties with . or [] syntax
   - Add properties with . and = 
-  - We can creat primitives using "new" but don't
-  
+  - We can create primitives using "new" but don't
+
 
 
 
