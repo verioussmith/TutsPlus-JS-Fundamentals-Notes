@@ -134,7 +134,32 @@ These are notes for the tutsplus javascript fundamentals course.
   - Add properties with . and = 
   - We can create primitives using "new" but don't
 
+  #### 2.7 Functions
 
+  - General Workhorse of Javascript Applications.
+  - A logical grouping of one or more expressions.
+  - Invoked arbitratrily to execute the expressions.
+  - Passing values into a function allows those values to be treated as variables in the function
+  - we can define functions in many ways.  A function experssion is stored in a variable
+  - Named function expressions are generally preferred to anonymous function expressions because of a phenomena called "Hoisting"
+  - Named functions expressions can cause problems in Internet Explorer 7 and below	
+  - We can nest functions.  This is useful & powerful when exploited to create closures
+  - We can also pass functions to other functions and have the receiving function invoke them
+  - Functions passed to other functions and then invoked are known as callback functions
+  - Hoisting
+    - Variables are processed before any other code is executed so it is advised to always declare variables at the start of the function they are contained within even if we don't assign them a value.
+    - A variable defined halfway down the funcion are still avaialbe at the top of the function because javascript "hoists" varaibles to the top of the scope.
+    - Any variables that are not defined in our code will not be hoisted and will return a Reference Error in the console.
+    - Functions created using the function declaration are evaluated before other code and are "Hoisted" to the top of their scope.
+    - Function expressions are not Hoisted and this is why they are preferred
+  - Functions can be defined so as to be invoked automatically.
+    - Wrap them in an extra set of parenthesis 
+    - Use a unary operator at the start of the function instead of wrapping the function in an extra set of parenthesis
+  - Use function declarations or function expressions
+  - Name arguments in parentheses after the function identifier
+  - Use an extra set of parentheses to invoke immediately
+  - Function expressions are stored in a variable
+  - Variables and functions are hoisted to the top of their scope. 
 
 
 

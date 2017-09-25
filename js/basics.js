@@ -79,10 +79,25 @@ function getThingByColour(colour) {
 	return things[colour] || 'Sorry, no thing of that colour exists';
 }
 
+function myFunction(message) {
+	console.log(message);
+	return true;
+}
 
+var myOtherFunction = function myOtherFunction() {
+	console.log('function expression')
+}
 
+console.log(hoistedVariable);
+var hoistedVariable = 'test'; // This Variable is hoisted & returns undefined
 
+(function InvokeImmediately() {
+	console.log('invoked automatically')
+}());
 
+!function alsoInvokedAutomatically() {
+	console.log('Invoked automatically too!');
+}()  // Leading Bang Syntax
 
 
 
